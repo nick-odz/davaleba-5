@@ -1,0 +1,36 @@
+/*header*/
+body{
+	height: 2000px;
+	padding-top: 52px;
+}
+.header{
+	background-color: #F6F8F9;
+	padding:18px;
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+
+}
+.logo{
+	display: inline-block;
+	margin-right: 92px;
+	color: #FA6980;
+	font-size: 13px;
+	
+}
+.navigation{
+	display: inline-block;
+	
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 27px;
+	font-size: 11px;
+
+}
+.header.img{
+	vertical-align: middle;
+}
+
+
