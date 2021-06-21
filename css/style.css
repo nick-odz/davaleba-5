@@ -2,7 +2,9 @@
 body{
 	height: 2000px;
 	padding-top: 52px;
+	
 }
+/*header*/
 .header{
 	background-color: #F6F8F9;
 	padding:18px;
@@ -10,6 +12,7 @@ body{
 	width: 100%;
 	top:0;
 	left:0;
+	z-index: 100;
 
 }
 .logo{
@@ -18,6 +21,9 @@ body{
 	color: #FA6980;
 	font-size: 13px;
 	
+}
+.nav-1{
+	color: #343638;
 }
 .navigation{
 	display: inline-block;
@@ -32,5 +38,92 @@ body{
 .header.img{
 	vertical-align: middle;
 }
+/*header-end*/
 
+/*section-1*/
+.conteiner1{
+	width: 1160px;
+	margin: 0 auto;
+}
+.title-1{
+	color: #202124;
+	font-size: 24px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.img-text{
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.image-warpper{
+	position: relative;
 
+}
+
+.block-p{
+	width: 280px;
+	margin-top: 66px;
+	font-size: 13px;
+	color: #A6ADB4;
+}
+.clock{
+	margin-top: 10px;
+	display: inline-block;
+}
+.m2{
+	display: inline-block;
+}
+.block-1{
+	display: inline-block;
+	margin-right: 35px;
+}
+.block-2{
+	display: inline-block;
+	margin-right: 35px;
+}
+.block-3{
+	display: inline-block;
+
+}
+/*section-1 end*/
+
+/*section-2*/
+.title-2{
+	font-size: 24px;
+	margin-top:58px;
+	margin-bottom: 40px;
+}
+.img-text-2{
+
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.img-warpper2{
+	position: relative;
+	width: 760px;
+	vertical-align:top;
+}
+.forest-img{
+	margin-top: 40px;
+}
+
+.img-block2{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 118px;
+	margin-left: 35px;
+	
+}
+.img-block1{
+	display: inline-block;
+	
+}
+.li-2{
+	margin-bottom: 102px;
+}
